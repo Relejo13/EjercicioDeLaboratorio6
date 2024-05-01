@@ -1,0 +1,19 @@
+from Hexagono import Hexagono
+from Rombo import Rombo
+from Trapecio import Trapecio
+
+# Ejemplo de uso
+p1 = Hexagono("naranja", 12, 10)
+print("Area:", p1.getArea())
+print("Perimetro:", p1.getPerimetro())
+print("Color:", p1.getColor())
+
+p2 = Rombo("morado", 10, 16)
+print("\nArea:", p2.getArea())
+print("Perimetro:", p2.getPerimetro())
+print("Color:", p2.getColor())
+
+p3 = Trapecio("cafe", 16, 12, 8, 10)
+print("\nArea:", p3.getArea())
+print("Perimetro:", p3.getPerimetro())
+print("Color:", p3.getColor())
